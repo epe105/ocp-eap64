@@ -4,10 +4,10 @@
 
 ## s2i Strategy
 
-### EAP 6.4 Image Streams and Template
-`oc create -n openshift -f https://raw.githubusercontent.com/jboss-openshift/application-templates/master/eap/eap64-image-stream.json`
+### JBOSS EAP 6.4 Image Stream and Template
+`oc create -f https://raw.githubusercontent.com/jboss-openshift/application-templates/master/eap/eap64-image-stream.json`
 
-`oc create -n openshift -f https://raw.githubusercontent.com/jboss-openshift/application-templates/master/eap/eap64-basic-s2i.json`
+`oc create -f https://raw.githubusercontent.com/jboss-openshift/application-templates/master/eap/eap64-basic-s2i.json`
 
 ## Source Build
 
