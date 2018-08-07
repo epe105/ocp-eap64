@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker build -t dockerbuild/eap64-openshift:latest .
+docker build -t docker-build/eap64-war:latest .
