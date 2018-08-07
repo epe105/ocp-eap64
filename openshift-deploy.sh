@@ -7,4 +7,11 @@ else
   oc project eap64
 fi
 
-oc new-build https://github.com/mechevarria/ocp-eap64.git --strategy=docker --name=docker-eap64
+#oc new-build https://github.com/mechevarria/ocp-eap64.git \
+#--docker-image="registry.access.redhat.com/jboss-eap-6/eap64-openshift:latest" \
+#--strategy=docker \
+#--name=docker-eap64
+
+oc new-app https://github.com/mechevarria/ocp-eap64.git \
+--strategy=docker \
+--name=docker-eap64
