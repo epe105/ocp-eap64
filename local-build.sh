@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-mvn -f pom-openshif.xml package -P openshift
+mvn -f pom-openshift.xml package -P openshift
