@@ -4,4 +4,4 @@ echo "Before assemble script"
 
 /usr/local/s2i/assemble
 
-echo "After assemable script"
+echo "After assemble script"
