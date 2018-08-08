@@ -1,6 +1,6 @@
 FROM registry.access.redhat.com/jboss-eap-6/eap64-openshift:latest
 
-COPY deployments/*.war /opt/eap/standalone/deployments/
+COPY deployments/*.ear /opt/eap/standalone/deployments/
 EXPOSE 8080
 EXPOSE 9990
 
