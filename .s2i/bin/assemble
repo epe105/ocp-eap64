@@ -1,7 +1,9 @@
 #!/bin/bash
 
-echo "Before assemble script"
+echo "*** Before standard assemble script ***"
 
 /usr/local/s2i/assemble
 
-echo "After assemble script"
+echo "*** Reading configuration ***"
+
+cat ${JBOSS_HOME}/standalone/configuration/standalone-openshift.xml
